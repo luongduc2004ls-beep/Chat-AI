@@ -1,0 +1,22 @@
+# ==========================================
+# FILE LIỆT KÊ CÁC THƯ VIỆN CHÍNH THỨC CẦN THIẾT (requirements.txt)
+# Cài đặt bằng lệnh: pip install -r requirements.txt
+# ==========================================
+
+# Framework Web Flask chính thức
+Flask>=3.0.0,<4.0.0
+
+# Quản lý và đọc biến môi trường từ file .env
+python-dotenv>=1.0.0,<2.0.0
+
+# SDK chính thức mới nhất của Google Gemini API (Google GenAI SDK)
+google-genai>=0.1.1
+
+# Thư viện Google Generative AI kế thừa (Tương thích ngược)
+google-generativeai>=0.8.0
+
+# Thư viện gửi yêu cầu HTTP và xử lý mạng
+requests>=2.31.0
+
+# WSGI Utility Library cho Flask
+Werkzeug>=3.0.0

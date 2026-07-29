@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Flask Gemini Chatbot</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+    <main class="chat-container">
+        <header class="chat-header">
+            <h1>Gemini AI Chatbot</h1>
+            <p>Ứng dụng Flask Python tích hợp Gemini API</p>
+        </header>
+
+        <section id="chat-box" class="chat-box">
+            <div class="message bot-message">
+                <div class="message-label">AI</div>
+
+                <div class="message-content">
+                    Xin chào! Tôi là Gemini AI.Ngày hôm nay của bạn như thế nào?
+                </div>
+            </div>
+        </section>
+
+        <form id="chat-form" class="chat-form">
+            <textarea
+                id="message-input"
+                placeholder="Nhập câu hỏi của bạn..."
+                rows="1"
+                required
+            ></textarea>
+
+            <button id="send-button" type="submit">
+                Gửi
+            </button>
+        </form>
+    </main>
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+</body>
+</html>

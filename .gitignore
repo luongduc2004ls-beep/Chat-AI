@@ -1,0 +1,17 @@
+# API Key
+.env
+
+# Môi trường ảo
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
